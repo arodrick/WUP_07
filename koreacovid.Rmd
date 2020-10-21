@@ -1,5 +1,5 @@
 ---
-title: "covid 19"
+title: "Covid 19"
 author: "Amee Rodrick"
 date: "10/21/2020"
 output:
@@ -73,15 +73,18 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
-
-
-
-
-
-
-
+Looking at the numbers above more men have died unexpectedly and less women died then expected.Meaning men are more vulnerable to the disease Covid. P value is 9e=04 which is a very small number.
 
 
 ## Conclusions
+My conclusion based on data is that men infected with Covid are dying at a higher rate the the infected women. 
+
+
+
+
+
+
+
+
+
 
