@@ -51,13 +51,34 @@ barchartGC(~result + Sex,data=kRdata, type= "percent")
 
 
 
+As we can see in the above bar chart the people alive, roughly 55% are female and 43% of men. Males are dying from Covid. 
 
 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+Im the above results 64% of men are dead and 36% of female have died from Covid. 
 
 ## Inferential results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+
+
+
+
+
 
 
 
